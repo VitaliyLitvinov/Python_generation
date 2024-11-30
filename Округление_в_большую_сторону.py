@@ -1,4 +1,4 @@
 
 
 n = int(input())
-print(-1 * n // 4 * -1)
+print(-n // 4 * -1)

@@ -25,6 +25,8 @@ for i in range(start, stop + 1):
     if sum_divider < temp_sum:
         sum_divider = temp_sum
         number = i
+    elif sum_divider == temp_sum:
+        number = i
+
     temp_sum = 0
-print(number)
-print(sum_divider)
+print(number, sum_divider)

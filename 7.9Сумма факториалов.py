@@ -1,4 +1,5 @@
 
+
 num = int(input())
 sum_fact = 0
 fact = 1

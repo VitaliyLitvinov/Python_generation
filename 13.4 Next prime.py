@@ -12,7 +12,5 @@ def get_next_prime(num):
         num += 1
 
     return num
-
-
 n = int(input())
 print(get_next_prime(n))
